@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.input-section, .message-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.input-section {
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 10%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.encrypt-btn {
+    background-color: #0000CC ;
+    color: #fff;
+}
+
+.encrypt-btn:hover {
+    background-color: #000099;
+}
+
+.decrypt-btn {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.decrypt-btn:hover {
+    background-color: #ccc;
+}
+
+.copy-btn{
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.copy-btn:hover {
+    background-color: #ccc;
+}
+
+.label{
+    margin: 10px;
+}
+
+
+.message-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.message-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.message-section p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.img-buscar{
+    width: 10%;
+    height: 10%;
+}
+
+.outputMessage{
+    margin-top: 40px;
+}
