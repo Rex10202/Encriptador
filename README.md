@@ -51,7 +51,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente.
 
 ## Créditos
 
-- **Desarrollador Principal:** [Tu Nombre](https://github.com/tu-usuario)
+- **Desarrollador Principal:** Rex10202
 
 ## Agradecimientos
 
